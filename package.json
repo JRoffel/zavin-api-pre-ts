@@ -1,0 +1,29 @@
+{
+  "name": "zavin-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRoffel/Zavin-API.git"
+  },
+  "author": "JRoffel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JRoffel/Zavin-API/issues"
+  },
+  "homepage": "https://github.com/JRoffel/Zavin-API#readme",
+  "dependencies": {
+    "@risingstack/trace": "^3.5.1",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.8.1",
+    "nodemailer": "^3.0.2"
+  }
+}
